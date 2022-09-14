@@ -1,0 +1,16 @@
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $color-background-secondary;
+}
+.page-footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.page-footer__block-one-wrapper {
+  margin-right: 70px;
+}
+.page-footer__block-two-wrapper {
+  margin-right: 93px;
+}

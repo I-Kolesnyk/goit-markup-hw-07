@@ -1,0 +1,16 @@
+.address__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.address__link {
+  color: $color-contact-item;
+  font-style: normal;
+  transition: color $transform-duration $transform-timing-function;
+  &:hover,
+  &:focus {
+    color: $color-accent;
+  }
+}
+.address__link--without-hover {
+  color: $color-text-light;
+  font-style: normal;
+}
