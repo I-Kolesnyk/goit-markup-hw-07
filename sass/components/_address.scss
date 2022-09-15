@@ -1,7 +1,14 @@
+.address__list {
+  @extend %list;
+}
 .address__item:not(:last-child) {
   margin-bottom: 9px;
 }
-.address__link {
+.address__item:first-child .address__link {
+  color: $color-text-light;
+  font-style: normal;
+}
+.address__item:not(:first-child) .address__link {
   color: $color-contact-item;
   font-style: normal;
   transition: color $transform-duration $transform-timing-function;
@@ -9,8 +16,4 @@
   &:focus {
     color: $color-accent;
   }
-}
-.address__link--without-hover {
-  color: $color-text-light;
-  font-style: normal;
 }

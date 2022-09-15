@@ -1,12 +1,21 @@
 @import './utils/vars';
-@import './components/common-styles';
+@import './utils/placeholders';
+@import './utils/mixins';
+@import './utils/visually-hidden';
+
+@import './base/common';
+@import './base/section';
+@import './base/container';
+@import './base/image';
+
 @import './components/navigation';
-@import './components/page-header';
 @import './components/logotype';
 @import './components/contacts';
-@import './components/hero-section';
 @import './components/buttons';
-@import './components/features-section';
-@import './components/page-footer';
 @import './components/address';
 @import './components/our-works';
+
+@import './layout/page-header';
+@import './layout/hero-section';
+@import './layout/features-section';
+@import './layout/page-footer';

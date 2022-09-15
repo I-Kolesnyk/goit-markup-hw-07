@@ -1,4 +1,5 @@
 .contacts-list {
+  @extend %list;
   display: flex;
   margin-left: auto;
 }

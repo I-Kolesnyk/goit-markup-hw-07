@@ -4,6 +4,7 @@
   align-items: center;
 }
 .navigation__list {
+  @extend %list;
   display: flex;
 }
 .navigation__item:not(:last-child) {
