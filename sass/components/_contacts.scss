@@ -7,20 +7,20 @@
   margin-right: 50px;
 }
 .contacts-list__link {
-  display: flex;
-  align-items: center;
+  @extend %link;
+  @include flex();
   gap: 10px;
   fill: currentColor;
   padding-top: 32px;
   padding-bottom: 32px;
-  color: $color-text-primary;
+  color: var(--primary-text-color);
   font-style: normal;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  transition: color $transform-duration $transform-timing-function;
+  transition: color var(--transform-duration) var(--transform-timing-function);
   &:hover,
   &:focus {
-    color: $color-accent;
+    color: var(--accent-color);
   }
 }
