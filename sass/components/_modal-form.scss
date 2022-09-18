@@ -42,10 +42,8 @@
   position: relative;
 }
 .modal-form__icon {
-  position: absolute;
-  top: 50%;
+  @include absCenteredY();
   left: 12px;
-  transform: translateY(-50%);
   fill: var(--title-text-color);
   transition: fill var(--transform-duration) var(--transform-timing-function);
   .modal-form__input:focus + & {

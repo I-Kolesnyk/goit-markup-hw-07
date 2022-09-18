@@ -3,9 +3,7 @@
   display: block;
   color: var(--accent-color);
   font-family: 'Raleway', sans-serif;
-  font-weight: var(--bold-font);
-  font-size: 26px;
-  line-height: 1.19;
+  @include font(var(--bold-font), 26px, 1.19);
 }
 .page-header__logotype {
   margin-right: 93px;

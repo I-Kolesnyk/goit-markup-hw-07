@@ -1,9 +1,7 @@
 .clients__title {
   margin-bottom: 50px;
   color: var(--title-text-color);
-  font-weight: var(--bold-font);
-  font-size: 36px;
-  line-height: 1.17;
+  @include font(var(--bold-font), 36px, 1.17);
   text-align: center;
 }
 .clients__list {
