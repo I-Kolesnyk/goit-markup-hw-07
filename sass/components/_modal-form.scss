@@ -77,7 +77,7 @@
   transition: fill var(--transform-duration) var(--transform-timing-function),
     background-color var(--transform-duration) var(--transform-timing-function);
   .modal-form__checkbox:checked + & {
-    background-image: url(../../images/icon-check.svg);
+    background-image: url(./../images/icon-check.svg);
     background-color: var(--accent-color);
     background-size: contain;
     background-origin: border-box;
